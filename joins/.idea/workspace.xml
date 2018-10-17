@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7978d0f0-9573-48b1-aeb5-7ef13a7fa8fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/BNLJOperator.java" afterPath="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/BNLJOperator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/PNLJOperator.java" afterPath="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/PNLJOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SortMergeOperator.java" afterPath="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SortMergeOperator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SortOperator.java" afterPath="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SortOperator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/table/Table.java" afterPath="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/table/Table.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Fa18HW3/src/test/java/edu/berkeley/cs186/database/query/TestJoinOperator.java" afterPath="$PROJECT_DIR$/../Fa18HW3/src/test/java/edu/berkeley/cs186/database/query/TestJoinOperator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Fa18HW3/src/test/java/edu/berkeley/cs186/database/query/TestSortOperator.java" afterPath="$PROJECT_DIR$/../Fa18HW3/src/test/java/edu/berkeley/cs186/database/query/TestSortOperator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../Fa18HW3/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +25,7 @@
       <file leaf-file-name="Table.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/table/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2925">
+            <state relative-caret-position="6350">
               <caret line="458" column="38" lean-forward="false" selection-start-line="458" selection-start-column="38" selection-end-line="458" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,23 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/DatabaseException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RecordIterator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/table/RecordIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="170">
               <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#978#979#0" expanded="true" />
@@ -77,24 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestJoinOperator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/test/java/edu/berkeley/cs186/database/query/TestJoinOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-53">
-              <caret line="169" column="7" lean-forward="false" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
-              <folding>
-                <element signature="e#4900#4909#0" expanded="true" />
-                <element signature="e#7415#7424#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortOperator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortOperator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SortOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="140" column="25" lean-forward="true" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+            <state relative-caret-position="3152">
+              <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,22 +74,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortMergeOperator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SortMergeOperator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SortMergeOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="70" />
+            <state relative-caret-position="85">
+              <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+              <folding>
+                <element signature="e#5012#5013#0" expanded="true" />
+                <element signature="e#5089#5090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SNLJOperator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SNLJOperator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="125" column="10" lean-forward="false" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PNLJOperator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/PNLJOperator.java">
+      <file leaf-file-name="Record.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/table/Record.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="70" column="57" lean-forward="false" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="231">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#458#459#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,8 +112,8 @@
       <file leaf-file-name="TestSortOperator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/test/java/edu/berkeley/cs186/database/query/TestSortOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2870">
-              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="-459">
+              <caret line="174" column="9" lean-forward="false" selection-start-line="174" selection-start-column="9" selection-end-line="174" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -135,8 +122,8 @@
       <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="466" column="40" lean-forward="true" selection-start-line="466" selection-start-column="40" selection-end-line="466" selection-end-column="40" />
+            <state relative-caret-position="2209">
+              <caret line="235" column="18" lean-forward="false" selection-start-line="235" selection-start-column="18" selection-end-line="235" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -154,9 +141,9 @@
       <find>this.leftIterator.next();</find>
       <find>getTransa</find>
       <find>resetRightpage</find>
-      <find>getblock</find>
       <find>transaction</find>
       <find>compare</find>
+      <find>getblock</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,7 +163,9 @@
         <option value="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/PNLJOperator.java" />
         <option value="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/BNLJOperator.java" />
         <option value="$PROJECT_DIR$/../Fa18HW3/src/test/java/edu/berkeley/cs186/database/query/TestJoinOperator.java" />
+        <option value="$PROJECT_DIR$/../Fa18HW3/src/test/java/edu/berkeley/cs186/database/query/TestSortOperator.java" />
         <option value="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SortOperator.java" />
+        <option value="$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SortMergeOperator.java" />
       </list>
     </option>
   </component>
@@ -499,33 +488,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSortOperator.testSortNoChange">
-    <configuration default="false" name="TestSortOperator.testSortRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.cs186.database.query.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="database" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.berkeley.cs186.database.query" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.cs186.database.query.TestSortOperator" />
-      <option name="METHOD_NAME" value="testSortRun" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestSortOperator.testSortRandomOrder">
     <configuration default="false" name="TestSortOperator.testMergeSortedRuns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -617,6 +580,32 @@
       <option name="PACKAGE_NAME" value="edu.berkeley.cs186.database.query" />
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.cs186.database.query.TestSortOperator" />
       <option name="METHOD_NAME" value="testMergePass" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSortOperator.testSortRandomOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.berkeley.cs186.database.query.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="database" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.berkeley.cs186.database.query" />
+      <option name="MAIN_CLASS_NAME" value="edu.berkeley.cs186.database.query.TestSortOperator" />
+      <option name="METHOD_NAME" value="testSortRandomOrder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -912,19 +901,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testSortRun" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testMergeSortedRuns" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testSortNoChange" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testSortBackwards" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testMergePass" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testMergeSortedRuns" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testSortNoChange" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testSortBackwards" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testMergePass" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testSortRandomOrder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testSortNoChange" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testMergePass" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testSortBackwards" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testMergeSortedRuns" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testSortRun" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testSortRandomOrder" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testSortBackwards" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testSortNoChange" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testMergePass" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSortOperator.testMergeSortedRuns" />
       </list>
     </recent_temporary>
   </component>
@@ -942,35 +931,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestJoinOperator_testBNLJDiffOutPutThanPNLJ - 2018.10.16 at 21h 45m 20s.xml">
-      <configuration name="TestJoinOperator.testBNLJDiffOutPutThanPNLJ" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestJoinOperator_testSimplePNLJOutputOrder - 2018.10.16 at 21h 35m 22s.xml">
-      <configuration name="TestJoinOperator.testSimplePNLJOutputOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestJoinOperator_testSimplePNLJOutputOrder - 2018.10.16 at 21h 36m 06s.xml">
-      <configuration name="TestJoinOperator.testSimplePNLJOutputOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestJoinOperator_testSimplePNLJOutputOrder - 2018.10.16 at 21h 46m 49s.xml">
-      <configuration name="TestJoinOperator.testSimplePNLJOutputOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSortOperator_testMergePass - 2018.10.16 at 23h 48m 44s.xml">
+    <history-entry file="TestSortOperator_testMergePass - 2018.10.17 at 12h 25m 12s.xml">
       <configuration name="TestSortOperator.testMergePass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSortOperator_testMergeSortedRuns - 2018.10.16 at 23h 40m 24s.xml">
-      <configuration name="TestSortOperator.testMergeSortedRuns" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSortOperator_testSortBackwards - 2018.10.16 at 23h 40m 46s.xml">
+    <history-entry file="TestSortOperator_testSortBackwards - 2018.10.17 at 12h 25m 59s.xml">
       <configuration name="TestSortOperator.testSortBackwards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSortOperator_testSortNoChange - 2018.10.16 at 23h 40m 37s.xml">
+    <history-entry file="TestSortOperator_testSortNoChange - 2018.10.17 at 12h 17m 15s.xml">
       <configuration name="TestSortOperator.testSortNoChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSortOperator_testSortNoChange - 2018.10.16 at 23h 48m 52s.xml">
+    <history-entry file="TestSortOperator_testSortNoChange - 2018.10.17 at 12h 20m 18s.xml">
       <configuration name="TestSortOperator.testSortNoChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSortOperator_testSortRun - 2018.10.16 at 23h 40m 16s.xml">
-      <configuration name="TestSortOperator.testSortRun" configurationId="JUnit" />
+    <history-entry file="TestSortOperator_testSortNoChange - 2018.10.17 at 12h 20m 40s.xml">
+      <configuration name="TestSortOperator.testSortNoChange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSortOperator_testSortNoChange - 2018.10.17 at 12h 21m 50s.xml">
+      <configuration name="TestSortOperator.testSortNoChange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSortOperator_testSortNoChange - 2018.10.17 at 12h 21m 56s.xml">
+      <configuration name="TestSortOperator.testSortNoChange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSortOperator_testSortNoChange - 2018.10.17 at 12h 25m 24s.xml">
+      <configuration name="TestSortOperator.testSortNoChange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSortOperator_testSortRandomOrder - 2018.10.17 at 12h 26m 06s.xml">
+      <configuration name="TestSortOperator.testSortRandomOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSortOperator_testSortRandomOrder - 2018.10.17 at 12h 26m 40s.xml">
+      <configuration name="TestSortOperator.testSortRandomOrder" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -987,7 +976,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958376" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1024,7 +1013,7 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="70" />
+      <option name="time" value="86" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1114,6 +1103,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,6 +1111,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,27 +1267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SNLJOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="120" column="54" lean-forward="false" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
-          <folding>
-            <element signature="e#5153#5154#0" expanded="true" />
-            <element signature="e#5197#5198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/table/Record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/FailOnTimeout.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1309,14 +1279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1350,16 +1312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/table/RecordIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#978#979#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/common/ArrayBacktrackingIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1380,22 +1332,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/test/java/edu/berkeley/cs186/database/query/TestSortOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2870">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/PNLJOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="70" column="57" lean-forward="false" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/JoinOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1406,17 +1342,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/Database.java">
+    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/test/java/edu/berkeley/cs186/database/query/TestJoinOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="466" column="40" lean-forward="true" selection-start-line="466" selection-start-column="40" selection-end-line="466" selection-end-column="40" />
+        <state relative-caret-position="-671">
+          <caret line="169" column="7" lean-forward="false" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
+          <folding>
+            <element signature="e#4900#4909#0" expanded="false" />
+            <element signature="e#7415#7424#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/table/RecordIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#978#979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/table/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/test/java/edu/berkeley/cs186/database/query/TestSortOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="174" column="9" lean-forward="false" selection-start-line="174" selection-start-column="9" selection-end-line="174" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/table/Table.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2925">
+        <state relative-caret-position="6350">
           <caret line="458" column="38" lean-forward="false" selection-start-line="458" selection-start-column="38" selection-end-line="458" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1428,31 +1403,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/test/java/edu/berkeley/cs186/database/query/TestJoinOperator.java">
+    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="169" column="7" lean-forward="false" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
-          <folding>
-            <element signature="e#4900#4909#0" expanded="true" />
-            <element signature="e#7415#7424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SortMergeOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="70" />
+        <state relative-caret-position="2209">
+          <caret line="235" column="18" lean-forward="false" selection-start-line="235" selection-start-column="18" selection-end-line="235" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SortOperator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="140" column="25" lean-forward="true" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+        <state relative-caret-position="3152">
+          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/PNLJOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="211" column="10" lean-forward="true" selection-start-line="211" selection-start-column="10" selection-end-line="211" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SNLJOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="125" column="10" lean-forward="false" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Fa18HW3/src/main/java/edu/berkeley/cs186/database/query/SortMergeOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+          <folding>
+            <element signature="e#5012#5013#0" expanded="true" />
+            <element signature="e#5089#5090#0" expanded="true" />
           </folding>
         </state>
       </provider>
